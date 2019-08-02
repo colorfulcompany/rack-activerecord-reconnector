@@ -1,0 +1,13 @@
+*~
+*.bak
+Gemfile.lock
+
+/.bundle/
+/vendor
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/

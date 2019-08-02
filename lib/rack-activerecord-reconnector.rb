@@ -1,0 +1,1 @@
+require_relative 'rack/active_record_reconnector'
