@@ -1,8 +1,4 @@
 require "rack/active_record_reconnector/version"
-require "logger"
-
-require 'pry-byebug'
-
 
 module Rack
   class ActiveRecordReconnector
