@@ -25,14 +25,14 @@ Or install it yourself as:
 ### Rails app
 
 ```ruby
-config.middleware.use Rack::ActiveRecordReconnector
+config.middleware.use Rack::ActiveRecordReconnector, debug: (ENV['DEBUG'] ? true : false), logger: Rails.logger
 ```
 
 ### Rack app
 
 ```ruby
 Rack::Builder.new do
-  use Rack::ActiveRecordReconnector
+  use Rack::ActiveRecordReconnector, debug: (ENV['DEBUG'] ? true : false), logger: logger
   run Rack::Application
 end
 ```
