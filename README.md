@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/colorfulcompany/rack-activerecord-reconnector.svg?branch=master)](https://travis-ci.org/colorfulcompany/rack-activerecord-reconnector)
+
 # Rack::ActiveRecordReconnector
 
 A Rack middleware for cleaning ActiveRecord connection when raised Exception.
